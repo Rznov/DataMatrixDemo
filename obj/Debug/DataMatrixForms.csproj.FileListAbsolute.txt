@@ -1,0 +1,12 @@
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\bin\Debug\DataMatrixForms.exe.config
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\bin\Debug\DataMatrixForms.exe
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\bin\Debug\DataMatrixForms.pdb
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\bin\Debug\MathNet.Numerics.dll
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\bin\Debug\MathNet.Numerics.xml
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.csprojAssemblyReference.cache
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.Properties.Resources.resources
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.csproj.GenerateResource.cache
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.csproj.CoreCompileInputs.cache
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.csproj.CopyComplete
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.exe
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.pdb
