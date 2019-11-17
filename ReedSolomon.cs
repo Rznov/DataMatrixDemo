@@ -8,7 +8,7 @@ using MathNet.Numerics;
 namespace DataMatrixForms
 {
 
-    class ReedSolomon
+    public class ReedSolomon
     {
         private static readonly Polynomial FieldPolynomial = new Polynomial(1, 0, 1, 1, 0, 1, 0, 0, 1);
 
