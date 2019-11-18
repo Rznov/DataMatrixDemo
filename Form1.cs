@@ -15,6 +15,13 @@ namespace DataMatrixForms
         public Form1()
         {
             InitializeComponent();
+            button1.Click += EncodeClick;
+        }
+
+        private void EncodeClick(object sender, EventArgs e)
+        {
+            var image = DataMatrix.Encode(textBox1.Text);
+            pictureBox1.Image = image;
         }
     }
 }

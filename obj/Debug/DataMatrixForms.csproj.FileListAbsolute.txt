@@ -10,3 +10,4 @@ C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixFo
 C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.csproj.CopyComplete
 C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.exe
 C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.pdb
+C:\Users\Artem Rozanov\Desktop\programmin\DataMatrixForms\obj\Debug\DataMatrixForms.Form1.resources

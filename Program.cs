@@ -5,6 +5,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using MathNet.Numerics;
 using System.Text;
+using System.Drawing;
+using System.IO;
 
 namespace DataMatrixForms
 {
@@ -16,15 +18,19 @@ namespace DataMatrixForms
         [STAThread]
         static void Main()
         {
-            ///Application.EnableVisualStyles();
-            ///Application.SetCompatibleTextRenderingDefault(false);
-            ///Application.Run(new Form1());
-            var dividend = new double[] {0, 0, 0, 0, 0, 0, 0, 129, 115, 99, 98, 73 };
-            var divisor = new double[] {23, 68, 144, 134, 240, 92, 254, 1};
-            var poly = ReedSolomon.DevideRemainderInField(new Polynomial(dividend), new Polynomial(divisor));
-            Console.WriteLine(ReedSolomon.GetFormingPolynomial(7));
-            //Console.WriteLine(poly.ToString());
-            //Console.WriteLine(ReedSolomon.PolynomialToDouble(new Polynomial(0, 1, 0, 1, 1)));
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Form1());
+            Image image = Image.FromFile(@"C:\Users\Artem Rozanov\Desktop\bitmap.png");
+            var ms = new MemoryStream();
+
+            image.Save(ms, System.Drawing.Imaging.ImageFormat.Jpeg);
+            var bytes = ms.ToArray();
+
+            var imageMemoryStream = new MemoryStream(bytes);
+
+            Image imgFromStream = Image.FromStream(imageMemoryStream);
+
         }
     }
 }

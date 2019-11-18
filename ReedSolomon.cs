@@ -188,14 +188,21 @@ namespace DataMatrixForms
             return encodedMessage.ToArray();
         }
 
-        // redo this method
-        private static int[] GetSize(int messageLegth)
+        // refactor for more message length
+        private static int[] GetSize(int messageLength)
         {
-            // n - word length, k - information
-            int n = 12;
-            int k = 5;
-
-            return new int[] { n, k};
+            if(messageLength > 0 && messageLength <= 3)
+            {
+                return new int[] { 8,  3};
+            }
+            else if (messageLength > 3 && messageLength <= 5)
+            {
+                return new int[] { 12, 5 };
+            }
+            else
+            {
+                return new int[] { 18, 8 }; ;
+            }
         }
 
         private static Double[] AddFiller(Double[] arrayToAdd, int number)
@@ -293,11 +300,7 @@ namespace DataMatrixForms
 
             var codedMessage = DevideRemainderInField(polynomialToEncode, formingPolynomial);
             
-            
-
-
-
-            return new Polynomial(codedAsciiMessage);
+            return codedMessage;
         }
 
 
